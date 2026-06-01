@@ -1,0 +1,17 @@
+# Core numerical/scientific stack
+numpy
+pandas
+scipy
+
+# Deep learning
+torch
+
+# Data loading utilities
+openpyxl
+
+# Plotting / analysis
+matplotlib
+
+# Optional but useful utilities
+scikit-learn
+tqdm
