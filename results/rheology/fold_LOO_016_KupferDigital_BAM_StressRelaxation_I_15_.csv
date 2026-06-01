@@ -1,0 +1,17 @@
+fold,equation,material,file,sigma0,fraction,mlp_only,trf_cold,trf_warm,n_obs,n_train,n_test
+LOO_016_KupferDigital_BAM_StressRelaxation_I_15_,guiu_pratt,"CuZn23Si2,5",KupferDigital_BAM_StressRelaxation_I_15 ,157.1339855,0.001,8.05013656616211,8.910388617485058,8.91063046771626,9,16,1
+LOO_016_KupferDigital_BAM_StressRelaxation_I_15_,guiu_pratt,"CuZn23Si2,5",KupferDigital_BAM_StressRelaxation_I_15 ,157.1339855,0.005,8.05013656616211,21.69041291407662,21.690402264986684,44,16,1
+LOO_016_KupferDigital_BAM_StressRelaxation_I_15_,guiu_pratt,"CuZn23Si2,5",KupferDigital_BAM_StressRelaxation_I_15 ,157.1339855,0.01,8.05013656616211,12.018635583834998,12.018603036442235,87,16,1
+LOO_016_KupferDigital_BAM_StressRelaxation_I_15_,guiu_pratt,"CuZn23Si2,5",KupferDigital_BAM_StressRelaxation_I_15 ,157.1339855,0.02,8.05013656616211,4.718476334083594,4.718547193327688,173,16,1
+LOO_016_KupferDigital_BAM_StressRelaxation_I_15_,guiu_pratt,"CuZn23Si2,5",KupferDigital_BAM_StressRelaxation_I_15 ,157.1339855,0.05,8.05013656616211,0.306385996364091,0.3063855717668081,433,16,1
+LOO_016_KupferDigital_BAM_StressRelaxation_I_15_,guiu_pratt,"CuZn23Si2,5",KupferDigital_BAM_StressRelaxation_I_15 ,157.1339855,0.1,8.05013656616211,0.9729842740354104,0.9729783484032781,865,16,1
+LOO_016_KupferDigital_BAM_StressRelaxation_I_15_,guiu_pratt,"CuZn23Si2,5",KupferDigital_BAM_StressRelaxation_I_15 ,157.1339855,0.2,8.05013656616211,1.3925055637444814,1.3924968414495789,1730,16,1
+LOO_016_KupferDigital_BAM_StressRelaxation_I_15_,guiu_pratt,"CuZn23Si2,5",KupferDigital_BAM_StressRelaxation_I_15 ,157.1339855,0.4,8.05013656616211,0.6129265504272912,0.6129221579675671,3459,16,1
+LOO_016_KupferDigital_BAM_StressRelaxation_I_15_,thermal,"CuZn23Si2,5",KupferDigital_BAM_StressRelaxation_I_15 ,157.1339855,0.001,1058.742431640625,8.910427026517453,8.910769445520387,9,16,1
+LOO_016_KupferDigital_BAM_StressRelaxation_I_15_,thermal,"CuZn23Si2,5",KupferDigital_BAM_StressRelaxation_I_15 ,157.1339855,0.005,1058.742431640625,21.690431479980877,21.690425432282222,44,16,1
+LOO_016_KupferDigital_BAM_StressRelaxation_I_15_,thermal,"CuZn23Si2,5",KupferDigital_BAM_StressRelaxation_I_15 ,157.1339855,0.01,1058.742431640625,12.018645099355457,12.018654316604177,87,16,1
+LOO_016_KupferDigital_BAM_StressRelaxation_I_15_,thermal,"CuZn23Si2,5",KupferDigital_BAM_StressRelaxation_I_15 ,157.1339855,0.02,1058.742431640625,4.7185516048381695,4.718461970744792,173,16,1
+LOO_016_KupferDigital_BAM_StressRelaxation_I_15_,thermal,"CuZn23Si2,5",KupferDigital_BAM_StressRelaxation_I_15 ,157.1339855,0.05,1058.742431640625,0.3063825433952813,0.3063874124900008,433,16,1
+LOO_016_KupferDigital_BAM_StressRelaxation_I_15_,thermal,"CuZn23Si2,5",KupferDigital_BAM_StressRelaxation_I_15 ,157.1339855,0.1,1058.742431640625,0.9729881416954722,0.9729883252719496,865,16,1
+LOO_016_KupferDigital_BAM_StressRelaxation_I_15_,thermal,"CuZn23Si2,5",KupferDigital_BAM_StressRelaxation_I_15 ,157.1339855,0.2,1058.742431640625,1.392510808306673,1.3925110275905797,1730,16,1
+LOO_016_KupferDigital_BAM_StressRelaxation_I_15_,thermal,"CuZn23Si2,5",KupferDigital_BAM_StressRelaxation_I_15 ,157.1339855,0.4,1058.742431640625,0.6129274215538512,0.6129273280635985,3459,16,1
