@@ -234,7 +234,7 @@ A recommended repository layout is:
 │   └── IEEE_ICDM_2026.pdf
 ├── data/
 │   ├── rheology/
-│   │   └── stress_relaxation_files can be fount [Here](https://dataportal.material-digital.de/dataset/?q=StressRelaxation&sort=score+desc%2C+metadata_modified+desc)
+│   │   └── stress_relaxation_files can be found at: https://dataportal.material-digital.de/dataset/?q=StressRelaxation&sort=score+desc%2C+metadata_modified+desc
 │   └── theoph.csv
 ├── src/
 │   ├── cv_threeway.py
