@@ -1,0 +1,210 @@
+========================================================================
+  PK ALL-VARIANTS MASTER SUMMARY
+========================================================================
+  Seeds       : [42, 43, 44, 45, 46]
+  TRF restarts: 50
+  Configs     : ['subjid_sigma0', 'population_sigma0', 'population_nosigma0']
+
+------------------------------------------------------------------------
+  CONFIG: subjid_sigma0
+------------------------------------------------------------------------
+  --- one_compartment ---
+     fraction     method    mean(seeds)   std(seeds)
+       0.1000   mlp_only         2.1669       0.1458
+       0.1000   trf_cold        20.4995       2.6543
+       0.1000   trf_warm        18.9382       0.4640
+       0.2000   mlp_only         2.1669       0.1458
+       0.2000   trf_cold      3602.6046       1.4128
+       0.2000   trf_warm      3585.0214       8.0501
+       0.3000   mlp_only         2.1669       0.1458
+       0.3000   trf_cold      1936.2919       0.0614
+       0.3000   trf_warm      1926.2189       7.2341
+       0.4500   mlp_only         2.1669       0.1458
+       0.4500   trf_cold         4.7958       0.0000
+       0.4500   trf_warm         4.7958       0.0000
+       0.5500   mlp_only         2.1669       0.1458
+       0.5500   trf_cold         0.9298       0.0000
+       0.5500   trf_warm         0.9297       0.0000
+       0.7500   mlp_only         2.1669       0.1458
+       0.7500   trf_cold         0.3723       0.0000
+       0.7500   trf_warm         0.3723       0.0000
+       1.0000   mlp_only         2.1669       0.1458
+       1.0000   trf_cold         0.3566       0.0000
+       1.0000   trf_warm         0.3566       0.0000
+
+  --- two_compartment ---
+     fraction     method    mean(seeds)   std(seeds)
+       0.1000   mlp_only        10.7844       0.0443
+       0.1000   trf_cold        21.7900       0.9114
+       0.1000   trf_warm        21.1456       0.7720
+       0.2000   mlp_only        10.7844       0.0443
+       0.2000   trf_cold        10.7751       0.0093
+       0.2000   trf_warm        10.7684       0.0149
+       0.3000   mlp_only        10.7844       0.0443
+       0.3000   trf_cold        10.4971       0.0000
+       0.3000   trf_warm        10.4971       0.0000
+       0.4500   mlp_only        10.7844       0.0443
+       0.4500   trf_cold        10.4971       0.0000
+       0.4500   trf_warm        10.4971       0.0000
+       0.5500   mlp_only        10.7844       0.0443
+       0.5500   trf_cold        10.4971       0.0000
+       0.5500   trf_warm        10.4971       0.0000
+       0.7500   mlp_only        10.7844       0.0443
+       0.7500   trf_cold        10.4971       0.0000
+       0.7500   trf_warm        10.4971       0.0000
+       1.0000   mlp_only        10.7844       0.0443
+       1.0000   trf_cold        10.4916       0.0000
+       1.0000   trf_warm        10.4916       0.0000
+
+  Equation wins per subject (across 5 seeds):
+    theoph_subject_01           one_compartment=5  two_compartment=0
+    theoph_subject_02           one_compartment=5  two_compartment=0
+    theoph_subject_03           one_compartment=5  two_compartment=0
+    theoph_subject_04           one_compartment=5  two_compartment=0
+    theoph_subject_05           one_compartment=5  two_compartment=0
+    theoph_subject_06           one_compartment=0  two_compartment=5
+    theoph_subject_07           one_compartment=5  two_compartment=0
+    theoph_subject_08           one_compartment=5  two_compartment=0
+    theoph_subject_09           one_compartment=5  two_compartment=0
+    theoph_subject_10           one_compartment=5  two_compartment=0
+    theoph_subject_11           one_compartment=5  two_compartment=0
+    theoph_subject_12           one_compartment=5  two_compartment=0
+
+    TOTAL one_compartment   : 55 subject-seed wins out of 60
+    TOTAL two_compartment   : 5 subject-seed wins out of 60
+
+------------------------------------------------------------------------
+  CONFIG: population_sigma0
+------------------------------------------------------------------------
+  --- one_compartment ---
+     fraction     method    mean(seeds)   std(seeds)
+       0.1000   mlp_only         4.9130       0.4596
+       0.1000   trf_cold        20.4995       2.6543
+       0.1000   trf_warm        20.8331       0.7675
+       0.2000   mlp_only         4.9130       0.4596
+       0.2000   trf_cold      3602.6046       1.4128
+       0.2000   trf_warm      3576.4306       8.0708
+       0.3000   mlp_only         4.9130       0.4596
+       0.3000   trf_cold      1936.2919       0.0614
+       0.3000   trf_warm      1921.4861       8.7605
+       0.4500   mlp_only         4.9130       0.4596
+       0.4500   trf_cold         4.7958       0.0000
+       0.4500   trf_warm         4.7958       0.0000
+       0.5500   mlp_only         4.9130       0.4596
+       0.5500   trf_cold         0.9298       0.0000
+       0.5500   trf_warm         0.9297       0.0000
+       0.7500   mlp_only         4.9130       0.4596
+       0.7500   trf_cold         0.3723       0.0000
+       0.7500   trf_warm         0.3723       0.0000
+       1.0000   mlp_only         4.9130       0.4596
+       1.0000   trf_cold         0.3566       0.0000
+       1.0000   trf_warm         0.3566       0.0000
+
+  --- two_compartment ---
+     fraction     method    mean(seeds)   std(seeds)
+       0.1000   mlp_only        10.6287       0.0266
+       0.1000   trf_cold        21.7900       0.9114
+       0.1000   trf_warm        22.1086       0.3072
+       0.2000   mlp_only        10.6287       0.0266
+       0.2000   trf_cold        10.7751       0.0093
+       0.2000   trf_warm        10.7406       0.0038
+       0.3000   mlp_only        10.6287       0.0266
+       0.3000   trf_cold        10.4971       0.0000
+       0.3000   trf_warm        10.4971       0.0000
+       0.4500   mlp_only        10.6287       0.0266
+       0.4500   trf_cold        10.4971       0.0000
+       0.4500   trf_warm        10.4971       0.0000
+       0.5500   mlp_only        10.6287       0.0266
+       0.5500   trf_cold        10.4971       0.0000
+       0.5500   trf_warm        10.4971       0.0000
+       0.7500   mlp_only        10.6287       0.0266
+       0.7500   trf_cold        10.4971       0.0000
+       0.7500   trf_warm        10.4971       0.0000
+       1.0000   mlp_only        10.6287       0.0266
+       1.0000   trf_cold        10.4916       0.0000
+       1.0000   trf_warm        10.4916       0.0000
+
+  Equation wins per subject (across 5 seeds):
+    theoph_subject_01           one_compartment=5  two_compartment=0
+    theoph_subject_02           one_compartment=5  two_compartment=0
+    theoph_subject_03           one_compartment=5  two_compartment=0
+    theoph_subject_04           one_compartment=5  two_compartment=0
+    theoph_subject_05           one_compartment=5  two_compartment=0
+    theoph_subject_06           one_compartment=0  two_compartment=5
+    theoph_subject_07           one_compartment=5  two_compartment=0
+    theoph_subject_08           one_compartment=5  two_compartment=0
+    theoph_subject_09           one_compartment=1  two_compartment=4
+    theoph_subject_10           one_compartment=5  two_compartment=0
+    theoph_subject_11           one_compartment=5  two_compartment=0
+    theoph_subject_12           one_compartment=5  two_compartment=0
+
+    TOTAL one_compartment   : 51 subject-seed wins out of 60
+    TOTAL two_compartment   : 9 subject-seed wins out of 60
+
+------------------------------------------------------------------------
+  CONFIG: population_nosigma0
+------------------------------------------------------------------------
+  --- one_compartment ---
+     fraction     method    mean(seeds)   std(seeds)
+       0.1000   mlp_only         4.5571       0.8886
+       0.1000   trf_cold        20.4995       2.6543
+       0.1000   trf_warm        19.3101       1.5666
+       0.2000   mlp_only         4.5571       0.8886
+       0.2000   trf_cold      3602.6046       1.4128
+       0.2000   trf_warm      3579.0638       8.7611
+       0.3000   mlp_only         4.5571       0.8886
+       0.3000   trf_cold      1936.2919       0.0614
+       0.3000   trf_warm      1923.2389       9.8902
+       0.4500   mlp_only         4.5571       0.8886
+       0.4500   trf_cold         4.7958       0.0000
+       0.4500   trf_warm         4.7958       0.0000
+       0.5500   mlp_only         4.5571       0.8886
+       0.5500   trf_cold         0.9298       0.0000
+       0.5500   trf_warm         0.9298       0.0000
+       0.7500   mlp_only         4.5571       0.8886
+       0.7500   trf_cold         0.3723       0.0000
+       0.7500   trf_warm         0.3723       0.0000
+       1.0000   mlp_only         4.5571       0.8886
+       1.0000   trf_cold         0.3566       0.0000
+       1.0000   trf_warm         0.3566       0.0000
+
+  --- two_compartment ---
+     fraction     method    mean(seeds)   std(seeds)
+       0.1000   mlp_only        10.6092       0.0115
+       0.1000   trf_cold        21.7900       0.9114
+       0.1000   trf_warm        22.7886       0.2523
+       0.2000   mlp_only        10.6092       0.0115
+       0.2000   trf_cold        10.7751       0.0093
+       0.2000   trf_warm        10.7549       0.0161
+       0.3000   mlp_only        10.6092       0.0115
+       0.3000   trf_cold        10.4971       0.0000
+       0.3000   trf_warm        10.4971       0.0000
+       0.4500   mlp_only        10.6092       0.0115
+       0.4500   trf_cold        10.4971       0.0000
+       0.4500   trf_warm        10.4971       0.0000
+       0.5500   mlp_only        10.6092       0.0115
+       0.5500   trf_cold        10.4971       0.0000
+       0.5500   trf_warm        10.4971       0.0000
+       0.7500   mlp_only        10.6092       0.0115
+       0.7500   trf_cold        10.4971       0.0000
+       0.7500   trf_warm        10.4971       0.0000
+       1.0000   mlp_only        10.6092       0.0115
+       1.0000   trf_cold        10.4916       0.0000
+       1.0000   trf_warm        10.4916       0.0000
+
+  Equation wins per subject (across 5 seeds):
+    theoph_subject_01           one_compartment=5  two_compartment=0
+    theoph_subject_02           one_compartment=5  two_compartment=0
+    theoph_subject_03           one_compartment=5  two_compartment=0
+    theoph_subject_04           one_compartment=5  two_compartment=0
+    theoph_subject_05           one_compartment=5  two_compartment=0
+    theoph_subject_06           one_compartment=0  two_compartment=5
+    theoph_subject_07           one_compartment=5  two_compartment=0
+    theoph_subject_08           one_compartment=5  two_compartment=0
+    theoph_subject_09           one_compartment=4  two_compartment=1
+    theoph_subject_10           one_compartment=5  two_compartment=0
+    theoph_subject_11           one_compartment=5  two_compartment=0
+    theoph_subject_12           one_compartment=5  two_compartment=0
+
+    TOTAL one_compartment   : 54 subject-seed wins out of 60
+    TOTAL two_compartment   : 6 subject-seed wins out of 60
