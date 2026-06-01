@@ -481,9 +481,7 @@ Typical PK outputs:
 results/pk_all/
 ├── MASTER_SUMMARY.txt
 ├── MASTER_all_folds_raw.csv
-├── SEED_AGGREGATED.csv
-├── SEED_EQUATION_WINS.csv
-└── per_config_outputs/
+└── subjid_sigma0/
 ```
 
 ---
